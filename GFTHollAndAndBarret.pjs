@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{129D6F2B-4BC4-4135-80A8-8603803FECE0}">
+	<children>
+		<child name="GFTHollandAndBarret" key="{611EE936-F3EE-436D-A4B9-55472BEDCACB}" path="GFTHollAndAndBarret\GFTHollandAndBarret.mds" />
+	</children>
+	<testItems key="{407078A0-5B41-4275-81C1-55B7F4A4FA79}">
+		<children>
+			<testItem key="{611EE936-F3EE-436D-A4B9-55472BEDCACB}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{7058D6CB-8BA0-453E-9327-5916CF1C2B4F}" />
+	<analysis key="{5962E1CF-634C-4649-B446-14F6C0BD61DF}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

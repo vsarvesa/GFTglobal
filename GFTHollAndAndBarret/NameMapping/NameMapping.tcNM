@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A938EB22-B87F-4D79-8CB7-3EF6FBDFDF8B}">
+				<TypeInfo Item0="{1E9B5380-C373-448D-9519-FAC08CF63458}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{7C570679-EE30-42DA-A2F4-077F5EDD6D87}">
+						<TypeInfo Item0="{487E200B-F8B5-48AC-A891-65E6A3DF80D0}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageHollandBarrettUkSLeadingHeal" Key="{E44D4CFB-FF0E-4C00-94F2-504182C7B75E}">
+								<Image FileName="-1090574193" Left="9" Top="105" Right="1929" Bottom="1028" />
+								<TypeInfo Item0="{1C0CB25F-D226-42CB-BBB4-22A211AA1A17}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navMyAccount" Key="{E81FBF90-F407-4F8F-B990-2DA4FD7EA6A4}">
+										<Image FileName="-1090574193" Left="1492" Top="135" Right="1555" Bottom="182" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Rewards&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;HeaderRflWidget-module_wrapper__b-ec2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRewards" Key="{B572B512-4AC3-4373-A1EF-A3D827CB9781}">
+										<Image FileName="-1090574193" Left="1492" Top="135" Right="1555" Bottom="182" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Rewards&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;HeaderRflWidget-module_mainLink__es07T&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRewards" Key="{DA963531-8991-45D3-A186-3F22668A9D44}">
+										<Image FileName="-1090574193" Left="1492" Top="165" Right="1555" Bottom="182" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Rewards&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;HeaderRflWidget-module_label__lz-Ba&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;my-account/rfl&apos;)]/span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[2]/a/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInToYourAccountForTheBes" Key="{E1D417C8-28D0-4643-A8DE-0EAA6A7E8E2C}">
+								<Image FileName="905484648" Left="9" Top="105" Right="1929" Bottom="1028" />
+								<TypeInfo Item0="{1C0CB25F-D226-42CB-BBB4-22A211AA1A17}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://auth.hollandandbarrett.com/u/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionMyAccount" Key="{EEA9FCA8-4D18-4A0C-A16E-594E8B047A6B}">
+										<Image FileName="905484648" Left="719" Top="249" Right="1219" Bottom="843" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;cf011232f&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerMyAccount" Key="{A59EF495-7832-45AB-9DE5-0679352EB790}">
+										<Image FileName="905484648" Left="719" Top="249" Right="1219" Bottom="481" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;c60832bcd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyAccount" Key="{80F872E7-42CB-44C1-9E2F-9DBFE943DB9A}">
+										<Image FileName="905484648" Left="739" Top="346" Right="1199" Bottom="400" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;My Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;c106ed0b0&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formEmailAddress" Key="{E698A33C-0BB1-4018-AE96-D68AD7014046}">
+										<Image FileName="706557361" Left="739" Top="521" Right="1199" Bottom="803" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;c7fd12059&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkForgotPassword" Key="{90F9C952-F0B7-4EFC-BF5D-5D7BB4910F85}">
+										<Image FileName="706557361" Left="739" Top="687" Right="923" Bottom="719" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Forgot password?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;c638bc692&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignUp" Key="{6AACD749-D406-4161-AF31-8195640DB499}">
+										<Image FileName="706557361" Left="770" Top="926" Right="838" Bottom="948" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign up&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddress" Key="{5990C91B-C67A-44BB-BEEF-19035FCAE320}">
+										<Image FileName="1739294573" Left="739" Top="521" Right="1199" Bottom="586" />
+										<TypeInfo Item0="{7833CBC0-605C-484A-8980-C8DC00FB5123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Email address&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{0B7BF0E3-48C3-4545-9F21-8C768A14E766}">
+										<Image FileName="98725354" Left="740" Top="602" Right="1143" Bottom="667" />
+										<TypeInfo Item0="{7833CBC0-605C-484A-8980-C8DC00FB5123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Password&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAction" Key="{06A5B081-E7BB-40B2-8FF2-8817C8DA86ED}">
+										<Image FileName="-1203290471" Left="739" Top="738" Right="1199" Bottom="803" />
+										<TypeInfo Item0="{C8498BE0-C0E2-4BEF-BA6D-69FE385ABE3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/button[@name=&apos;action&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button[@value=&apos;default&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button[contains(@class, &apos;c4c7ab148&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRegisterHollandBarrettTheUkS" Key="{D9FF8B0B-9836-4363-BD61-09EB76307620}">
+								<Image FileName="1026824514" Left="9" Top="105" Right="1929" Bottom="1028" />
+								<TypeInfo Item0="{1C0CB25F-D226-42CB-BBB4-22A211AA1A17}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/auth/signup" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="articleBack" Key="{A3193763-015D-4203-BA4E-EBC718E2CCBC}">
+										<Image FileName="1026824514" Left="589" Top="130" Right="1329" Bottom="1747" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Back&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;PageWrapper_pageWrapper__f21fT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionAlreadyHaveAnAccount" Key="{7E71DBF5-571A-47D0-BFAB-A0CFB525407D}">
+										<Image FileName="1026824514" Left="589" Top="208" Right="1329" Bottom="1747" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Already have an account?&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;SignUpEnhanced_mainFormSection__CDYMI&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateAnAccount" Key="{AD06E8B7-681F-48CD-A89F-BF800649461B}">
+										<Image FileName="1026824514" Left="609" Top="389" Right="1309" Bottom="440" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Create an account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;SignUpEnhanced_title__65Dww&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formFirstName" Key="{593F393F-6625-43A9-B29E-945FE8E9CF5B}">
+										<Image FileName="1546888564" Left="609" Top="108" Right="1309" Bottom="1396" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;First name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstName" Key="{233B3255-C2A4-4A27-83AF-119D6FB89549}">
+										<Image FileName="1546888564" Left="609" Top="156" Right="1309" Bottom="213" />
+										<TypeInfo Item0="{7833CBC0-605C-484A-8980-C8DC00FB5123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;First name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#firstName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;firstName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastName" Key="{EF8F07DA-381B-4051-8B66-D898CC153CAC}">
+										<Image FileName="1546888564" Left="609" Top="271" Right="1309" Bottom="328" />
+										<TypeInfo Item0="{7833CBC0-605C-484A-8980-C8DC00FB5123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Last name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#lastName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;lastName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailAddress" Key="{87540ABD-82B4-47EB-9CAB-3736DD52EEC5}">
+										<Image FileName="1546888564" Left="609" Top="385" Right="1309" Bottom="442" />
+										<TypeInfo Item0="{7833CBC0-605C-484A-8980-C8DC00FB5123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputConfirmEmailAddress" Key="{3CB330A5-EEB9-4F38-8810-71AC41564BAF}">
+										<Image FileName="1546888564" Left="609" Top="500" Right="1309" Bottom="557" />
+										<TypeInfo Item0="{7833CBC0-605C-484A-8980-C8DC00FB5123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Confirm email address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#confirmEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;confirmEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxCreateAPassword" Key="{96D17445-D010-41CB-8A8F-3F9288757E9A}">
+										<Image FileName="1323907745" Left="609" Top="281" Right="1309" Bottom="338" />
+										<TypeInfo Item0="{7833CBC0-605C-484A-8980-C8DC00FB5123}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Create a password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelEmailMeAbout" Key="{27088C3E-6920-4773-9949-E0D353FE728A}">
+										<Image FileName="-1774463833" Left="609" Top="747" Right="1309" Bottom="772" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Email me about&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;MarketingPreferencesEnhanced_label__LF4yT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxConsentemail" Key="{D72A424A-F601-41E8-B35E-4BCD724350F4}">
+										<Image FileName="-1774463833" Left="609" Top="747" Right="629" Bottom="767" />
+										<TypeInfo Item0="{7987D673-1251-4565-BB4D-1D544CC8DA2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;consentEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/input[@value=&apos;false&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelIAgreeToTheRewardsForLife" Key="{A53196EB-422C-40DE-9941-320885176100}">
+										<Image FileName="-1774463833" Left="609" Top="837" Right="1309" Bottom="862" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;I agree to the Rewards for Life and website&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;TermsAndConditions_label__dbZUA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxTerms" Key="{D6029C55-E87F-4035-816D-6A8B67E30826}">
+										<Image FileName="-1774463833" Left="609" Top="840" Right="629" Bottom="860" />
+										<TypeInfo Item0="{7987D673-1251-4565-BB4D-1D544CC8DA2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;terms&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/label/input[@value=&apos;false&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/label/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateAnAccount" Key="{DEB57F82-2EC7-42FF-AE64-2741468D4247}">
+										<Image FileName="-1774463833" Left="609" Top="887" Right="1309" Bottom="947" />
+										<TypeInfo Item0="{C8498BE0-C0E2-4BEF-BA6D-69FE385ABE3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Create an account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;jsx-baa171e44ac69e73&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEmailsMatchButPleaseCheck" Key="{D7A6C5BE-9F8E-47B9-9FDB-D5149CFFAAF5}">
+										<Image FileName="1080420799" Left="609" Top="588" Right="1309" Bottom="657" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;confirm-email-notification&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAccountCreated" Key="{66CA482A-A6E5-4643-8CC6-7A0A71D623A7}">
+										<Image FileName="1694556915" Left="599" Top="526" Right="1339" Bottom="566" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h4[.=&apos;Account created&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(@class, &apos;ThankYou_thank_you_header__46QlI&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{E6172AB1-186F-4106-A301-F488FAE43326}">
+										<Image FileName="201637944" Left="599" Top="586" Right="1339" Bottom="642" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;ThankYou_thank_you_description__t0Rws&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{26115B49-E528-489F-9D86-0B972E5FF728}">
+										<Image FileName="201637944" Left="924" Top="406" Right="1014" Bottom="496" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;circle&apos;][contains(@class, &apos;TickAnimation_colored__BOtRA&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{7D1F2CD0-9534-46CA-ABE4-7F5962CBB7B2}">
+										<Image FileName="201637944" Left="599" Top="805" Right="1339" Bottom="865" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;jsx-507bb6a5283c3c9e&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRewardsForLifeHollandBarrett" Key="{3469AFD7-AF76-4806-8A96-5F181C4E72AA}">
+								<Image FileName="-1474406108" Left="9" Top="105" Right="1929" Bottom="1028" />
+								<TypeInfo Item0="{1C0CB25F-D226-42CB-BBB4-22A211AA1A17}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/my-account/rfl" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navMyAccount" Key="{D1818BD8-9927-4F37-9E93-407B6C7B99E5}">
+										<Image FileName="-1474406108" Left="1280" Top="135" Right="1405" Bottom="182" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Hello Testxy{{jlyp&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;HeaderAccountWidget-module_wrapper__2slMI&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHelloTestxyJlyp" Key="{FF958606-A505-49FC-8D41-7DEC86E7A4ED}">
+										<Image FileName="-1474406108" Left="1280" Top="135" Right="1405" Bottom="182" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Hello Testxy{{jlyp&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;HeaderAccountWidget-module_mainLink__xC6dQ&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHelloTestxyJlyp" Key="{46FE563A-AC10-4E25-B6F3-1E697C2E10B7}">
+										<Image FileName="-1474406108" Left="1280" Top="165" Right="1405" Bottom="182" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(text(), &apos;Hello Test&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;HeaderAccountWidget-module_label__wuZUp&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;overview&apos;)]/span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSummerSale" Key="{A007AA81-268F-49F5-ACB5-5C1C66506A8D}">
+										<Image FileName="-1428481776" Left="221" Top="213" Right="1696" Bottom="259" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Summer Sale&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;HeaderMenuDesktop-module_menuSection__DFS95&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSummerSale" Key="{17EC0087-CC50-4AB0-A517-BA444BB83751}">
+										<Image FileName="-1428481776" Left="211" Top="213" Right="1706" Bottom="259" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;navigation-bar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Summer Sale&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;HeaderMenuDesktop-module_menuNav__CQhGj&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkVitaminsSupplements" Key="{547DCED6-E4A2-4406-9BA2-34C2710D39EC}">
+										<Image FileName="-1428481776" Left="353" Top="215" Right="573" Bottom="253" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Vitamins &amp; Supplements&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/a[contains(@class, &apos;MenuItem-module_menuItemLink__CAQsN&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelVitaminsSupplements" Key="{5B287CB5-E9B6-409A-B3AD-4347D407CB8B}">
+										<Image FileName="-1428481776" Left="361" Top="220" Right="566" Bottom="248" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Vitamins &amp; Supplements&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/a/div[contains(@class, &apos;Typography-module_base__h-bPx&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/a/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVitaminsSupplements" Key="{094A3F24-B01B-4E91-854C-2859CB81E449}">
+										<Image FileName="-826570947" Left="351" Top="213" Right="576" Bottom="259" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Vitamins &amp; Supplements&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelVitaminC" Key="{78F05DAE-104E-4A3A-9930-6C8D15A80FA6}">
+										<Image FileName="-826570947" Left="9" Top="105" Right="9" Bottom="105" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Vitamin C&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/a[6]/div[contains(@class, &apos;MenuItemLink-module_title__d0rSd&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;vitamin-c&apos;)]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageVitaminCTabletsSupplementsSh" Key="{65B80CA2-3CD7-478A-A146-C20ED2C0EE33}">
+								<Image FileName="1831005110" Left="9" Top="105" Right="1929" Bottom="1028" />
+								<TypeInfo Item0="{1C0CB25F-D226-42CB-BBB4-22A211AA1A17}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/shop/vitamins-supplements/vitamins/vitamin-c/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkBuy1Get1HalfPrice" Key="{BE3C96D7-CE38-491D-A2BF-D1FB80BC3F37}">
+										<Image FileName="1831005110" Left="546" Top="190" Right="819" Bottom="825" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;product-card&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Buy 1 Get 1 Half Price&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//div/div/div[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToBasket" Key="{D5C0D17F-494C-4AD4-82F8-693912E3A57D}">
+										<Image FileName="1831005110" Left="562" Top="739" Right="803" Bottom="799" />
+										<TypeInfo Item0="{C8498BE0-C0E2-4BEF-BA6D-69FE385ABE3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//*[.=&apos;Holland &amp; Barrett Vitamin C 1000mg 120 Tablets&apos;])[1]//parent::div/following::div[10]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Add to basket&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//div[3]//button[@type=&apos;button&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//button[contains(@class, &apos;Button-module_button__crqHX&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;product&apos;)]//div[3]/div/div/div/button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//div[3]//button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{A6A7E3C4-E025-4AAD-AFFB-7D46FA15E74D}">
+										<Image FileName="-1123554825" Left="562" Top="494" Right="803" Bottom="584" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Holland &amp; Barrett Vitamin C 1000mg 120 Tablets&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//div[contains(@class, &apos;ProductCard-module_title__nQbBW&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1249" Key="{1CF5420B-E8CD-458D-AF91-355B29F951A7}">
+										<Image FileName="-866973460" Left="562" Top="664" Right="623" Bottom="696" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//*[.=&apos;Holland &amp; Barrett Vitamin C 1000mg 120 Tablets&apos;])[1]//parent::div/following::div[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//div[contains(@class, &apos;ProductCard-module_price__IwgPs&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{FA040D1A-45AA-4592-B537-B467407C7B2A}">
+										<Image FileName="-487708185" Left="737" Top="662" Right="802" Bottom="722" />
+										<TypeInfo Item0="{C8498BE0-C0E2-4BEF-BA6D-69FE385ABE3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[contains(@class,&apos;plusBtn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button[contains(@class, &apos;Button-module_button__crqHX&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;product&apos;)]//div[3]/button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//div[3]//div[3]/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSummerSale" Key="{667BD5E1-50C9-44C5-8C35-7B435854386F}">
+										<Image FileName="302428250" Left="369" Top="191" Right="1549" Bottom="227" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Summer Sale&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;HeaderMenuDesktop-module_menuSection__DFS95&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSummerSale" Key="{991CCF6A-D2D0-42A2-AA58-7C8E3CC52E42}">
+										<Image FileName="302428250" Left="361" Top="191" Right="1557" Bottom="227" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;navigation-bar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Summer Sale&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;HeaderMenuDesktop-module_menuNav__CQhGj&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVitaminsSupplements" Key="{16C51FE5-6B24-44DD-A991-79A0E3DD5045}">
+										<Image FileName="302428250" Left="472" Top="191" Right="652" Bottom="227" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Vitamins &amp; Supplements&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkVitaminsSupplements" Key="{9D2655EB-98C7-4401-9FBC-F6DEB708E318}">
+										<Image FileName="302428250" Left="474" Top="193" Right="650" Bottom="223" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Vitamins &amp; Supplements&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/a[contains(@class, &apos;MenuItem-module_menuItemLink__CAQsN&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFoodDrink" Key="{0EDA9C24-0A98-4404-BCDD-5FECBE339FBC}">
+										<Image FileName="-93464431" Left="661" Top="193" Right="761" Bottom="223" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Food &amp; Drink&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/div/a[contains(@class, &apos;MenuItem-module_menuItemLink__CAQsN&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/div/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFoodDrink" Key="{9BB2D4E9-B172-4DF5-8E5C-180B05E58F3D}">
+										<Image FileName="-93464431" Left="667" Top="197" Right="755" Bottom="219" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Food &amp; Drink&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/div/a/div[contains(@class, &apos;Typography-module_base__h-bPx&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/div/a/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFoodDrink" Key="{E45F40A9-D8CF-41C5-8ADE-59620A227B87}">
+										<Image FileName="-902155224" Left="659" Top="191" Right="763" Bottom="227" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Food &amp; Drink&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelVeganFood" Key="{8FEF3756-9276-42A7-BE54-8CF146E2E237}">
+										<Image FileName="-902155224" Left="9" Top="105" Right="9" Bottom="105" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Vegan Food&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]//a[22]/div[contains(@class, &apos;MenuItemLink-module_title__d0rSd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]//a[22]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageVeganFoodProductsShopNowHoll" Key="{2A2DEF5A-D967-4A03-B5EA-4DD5B0780677}">
+								<Image FileName="2062094126" Left="9" Top="105" Right="1929" Bottom="1029" />
+								<TypeInfo Item0="{1C0CB25F-D226-42CB-BBB4-22A211AA1A17}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/shop/food-drink/vegan-food/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="labelChocolate" Key="{D3F1B49B-8756-4E2A-8A32-C582BE566FD5}">
+										<Image FileName="2062094126" Left="369" Top="695" Right="575" Bottom="721" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Chocolate&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/label[contains(@class, &apos;Checkbox-module_label__SfYmD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVeganFood" Key="{169AC9BE-9281-4E7C-9E35-42C4EC99A22B}">
+										<Image FileName="116908774" Left="369" Top="344" Right="510" Bottom="387" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;page-title&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[.=&apos;Vegan Food&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;PLPTitleWidget-module_pageTitle__hUAHu&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelClearFilters" Key="{6CA2D277-39E4-42C7-93CC-52E37DB8167E}">
+										<Image FileName="-950179876" Left="629" Top="-2228" Right="1549" Bottom="2442" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;SearchContentContainer-module_searchContentBlock__gSHZR&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkVegoOrganicHazelnutChocolate" Key="{D8EE810B-3954-4DF9-91A6-BB3FE624B47D}">
+										<Image FileName="923230006" Left="629" Top="342" Right="847" Bottom="826" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;product-card&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Vego Organic Hazelnut Chocolate Bar 65g&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//div/div/div[2]/div/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelVegoOrganicHazelnutChocolat" Key="{395A0E48-4989-463E-A9A1-108427354462}">
+										<Image FileName="923230006" Left="642" Top="585" Right="834" Bottom="633" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Vego Organic Hazelnut Chocolate Bar 65g&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//div[contains(@class, &apos;ProductCard-module_title__nQbBW&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToBasket" Key="{F7A01501-71A7-42D6-AB99-F4F48D34D9E6}">
+										<Image FileName="-2025347324" Left="306" Top="867" Right="490" Bottom="915" />
+										<TypeInfo Item0="{C8498BE0-C0E2-4BEF-BA6D-69FE385ABE3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;button-ProductCard&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Add to basket&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//div[3]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//button[contains(@class, &apos;Button-module_button__crqHX&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;product&apos;)]//div[3]/div/div/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//a//div[3]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link5" Key="{11F21EC7-F3E5-43AA-8F33-E97E926C4A76}">
+										<Image FileName="-1505477665" Left="1627" Top="135" Right="1696" Bottom="182" />
+										<TypeInfo Item0="{F61A4038-9D2B-4722-B6BE-C12035F390D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;5&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;MenuItem-module_button__9CgtG&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBasket" Key="{A95470E2-9D9D-4EBB-ABCE-3C05E08EDA43}">
+										<Image FileName="-1505477665" Left="1637" Top="165" Right="1686" Bottom="182" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Basket&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBasketHollandBarrett" Key="{B4DE6ED4-9698-476B-A0B3-35824012C91A}">
+								<Image FileName="-1513811212" Left="9" Top="105" Right="1929" Bottom="1028" />
+								<TypeInfo Item0="{1C0CB25F-D226-42CB-BBB4-22A211AA1A17}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/basket" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionVegoOrganicHazelnutChocol" Key="{A2109E21-21CE-4BCA-8330-F9592C65AA18}">
+										<Image FileName="-1513811212" Left="221" Top="167" Right="1257" Bottom="1089" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Vego Organic Hazelnut Chocolate Bar 65g&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;jsx-1603421161&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSubtotal" Key="{1331A853-154D-4FEE-99EA-018170C97182}">
+										<Image FileName="-1513811212" Left="1302" Top="464" Right="1400" Bottom="492" />
+										<TypeInfo Item0="{BC3D8F9F-32FA-4305-B7CC-8FB9876ACFB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;label&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[.=&apos;Subtotal&apos;]//following-sibling::div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[contains(@class, &apos;price-label__label&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{7C570679-EE30-42DA-A2F4-077F5EDD6D87}">
+			<Child Name="pageHollandBarrettUkSLeadingHeal" Owner="{E44D4CFB-FF0E-4C00-94F2-504182C7B75E}">
+				<Child Name="navMyAccount" Owner="{E81FBF90-F407-4F8F-B990-2DA4FD7EA6A4}">
+					<Child Name="linkRewards" Owner="{B572B512-4AC3-4373-A1EF-A3D827CB9781}">
+						<Child Name="textnodeRewards" Owner="{DA963531-8991-45D3-A186-3F22668A9D44}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSignInToYourAccountForTheBes" Owner="{E1D417C8-28D0-4643-A8DE-0EAA6A7E8E2C}">
+				<Child Name="sectionMyAccount" Owner="{EEA9FCA8-4D18-4A0C-A16E-594E8B047A6B}">
+					<Child Name="headerMyAccount" Owner="{A59EF495-7832-45AB-9DE5-0679352EB790}">
+						<Child Name="textnodeMyAccount" Owner="{80F872E7-42CB-44C1-9E2F-9DBFE943DB9A}" />
+					</Child>
+					<Child Name="formEmailAddress" Owner="{E698A33C-0BB1-4018-AE96-D68AD7014046}">
+						<Child Name="linkForgotPassword" Owner="{90F9C952-F0B7-4EFC-BF5D-5D7BB4910F85}" />
+						<Child Name="textboxEmailAddress" Owner="{5990C91B-C67A-44BB-BEEF-19035FCAE320}" />
+						<Child Name="passwordboxPassword" Owner="{0B7BF0E3-48C3-4545-9F21-8C768A14E766}" />
+						<Child Name="buttonAction" Owner="{06A5B081-E7BB-40B2-8FF2-8817C8DA86ED}" />
+					</Child>
+				</Child>
+				<Child Name="linkSignUp" Owner="{6AACD749-D406-4161-AF31-8195640DB499}" />
+			</Child>
+			<Child Name="pageRegisterHollandBarrettTheUkS" Owner="{D9FF8B0B-9836-4363-BD61-09EB76307620}">
+				<Child Name="articleBack" Owner="{A3193763-015D-4203-BA4E-EBC718E2CCBC}">
+					<Child Name="sectionAlreadyHaveAnAccount" Owner="{7E71DBF5-571A-47D0-BFAB-A0CFB525407D}">
+						<Child Name="textnodeCreateAnAccount" Owner="{AD06E8B7-681F-48CD-A89F-BF800649461B}" />
+						<Child Name="formFirstName" Owner="{593F393F-6625-43A9-B29E-945FE8E9CF5B}">
+							<Child Name="textboxFirstName" Owner="{233B3255-C2A4-4A27-83AF-119D6FB89549}" />
+							<Child Name="textboxLastName" Owner="{EF8F07DA-381B-4051-8B66-D898CC153CAC}" />
+							<Child Name="emailinputEmailAddress" Owner="{87540ABD-82B4-47EB-9CAB-3736DD52EEC5}" />
+							<Child Name="emailinputConfirmEmailAddress" Owner="{3CB330A5-EEB9-4F38-8810-71AC41564BAF}" />
+							<Child Name="passwordboxCreateAPassword" Owner="{96D17445-D010-41CB-8A8F-3F9288757E9A}" />
+							<Child Name="buttonCreateAnAccount" Owner="{DEB57F82-2EC7-42FF-AE64-2741468D4247}" />
+							<Child Name="panelEmailsMatchButPleaseCheck" Owner="{D7A6C5BE-9F8E-47B9-9FDB-D5149CFFAAF5}" />
+						</Child>
+						<Child Name="labelEmailMeAbout" Owner="{27088C3E-6920-4773-9949-E0D353FE728A}">
+							<Child Name="checkboxConsentemail" Owner="{D72A424A-F601-41E8-B35E-4BCD724350F4}" />
+						</Child>
+						<Child Name="labelIAgreeToTheRewardsForLife" Owner="{A53196EB-422C-40DE-9941-320885176100}">
+							<Child Name="checkboxTerms" Owner="{D6029C55-E87F-4035-816D-6A8B67E30826}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeAccountCreated" Owner="{66CA482A-A6E5-4643-8CC6-7A0A71D623A7}" />
+					<Child Name="textnode" Owner="{E6172AB1-186F-4106-A301-F488FAE43326}" />
+					<Child Name="textnode2" Owner="{26115B49-E528-489F-9D86-0B972E5FF728}" />
+					<Child Name="linkSignIn" Owner="{7D1F2CD0-9534-46CA-ABE4-7F5962CBB7B2}" />
+				</Child>
+			</Child>
+			<Child Name="pageRewardsForLifeHollandBarrett" Owner="{3469AFD7-AF76-4806-8A96-5F181C4E72AA}">
+				<Child Name="navMyAccount" Owner="{D1818BD8-9927-4F37-9E93-407B6C7B99E5}">
+					<Child Name="linkHelloTestxyJlyp" Owner="{FF958606-A505-49FC-8D41-7DEC86E7A4ED}">
+						<Child Name="textnodeHelloTestxyJlyp" Owner="{46FE563A-AC10-4E25-B6F3-1E697C2E10B7}" />
+					</Child>
+				</Child>
+				<Child Name="sectionSummerSale" Owner="{A007AA81-268F-49F5-ACB5-5C1C66506A8D}">
+					<Child Name="navSummerSale" Owner="{17EC0087-CC50-4AB0-A517-BA444BB83751}">
+						<Child Name="linkVitaminsSupplements" Owner="{547DCED6-E4A2-4406-9BA2-34C2710D39EC}">
+							<Child Name="panelVitaminsSupplements" Owner="{5B287CB5-E9B6-409A-B3AD-4347D407CB8B}" />
+						</Child>
+						<Child Name="textnodeVitaminsSupplements" Owner="{094A3F24-B01B-4E91-854C-2859CB81E449}">
+							<Child Name="panelVitaminC" Owner="{78F05DAE-104E-4A3A-9930-6C8D15A80FA6}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageVitaminCTabletsSupplementsSh" Owner="{65B80CA2-3CD7-478A-A146-C20ED2C0EE33}">
+				<Child Name="linkBuy1Get1HalfPrice" Owner="{BE3C96D7-CE38-491D-A2BF-D1FB80BC3F37}">
+					<Child Name="buttonAddToBasket" Owner="{D5C0D17F-494C-4AD4-82F8-693912E3A57D}" />
+					<Child Name="panel" Owner="{A6A7E3C4-E025-4AAD-AFFB-7D46FA15E74D}" />
+					<Child Name="panel1249" Owner="{1CF5420B-E8CD-458D-AF91-355B29F951A7}" />
+					<Child Name="button" Owner="{FA040D1A-45AA-4592-B537-B467407C7B2A}" />
+				</Child>
+				<Child Name="sectionSummerSale" Owner="{667BD5E1-50C9-44C5-8C35-7B435854386F}">
+					<Child Name="navSummerSale" Owner="{991CCF6A-D2D0-42A2-AA58-7C8E3CC52E42}">
+						<Child Name="textnodeVitaminsSupplements" Owner="{16C51FE5-6B24-44DD-A991-79A0E3DD5045}">
+							<Child Name="linkVitaminsSupplements" Owner="{9D2655EB-98C7-4401-9FBC-F6DEB708E318}" />
+						</Child>
+						<Child Name="linkFoodDrink" Owner="{0EDA9C24-0A98-4404-BCDD-5FECBE339FBC}">
+							<Child Name="panelFoodDrink" Owner="{9BB2D4E9-B172-4DF5-8E5C-180B05E58F3D}" />
+						</Child>
+						<Child Name="textnodeFoodDrink" Owner="{E45F40A9-D8CF-41C5-8ADE-59620A227B87}">
+							<Child Name="panelVeganFood" Owner="{8FEF3756-9276-42A7-BE54-8CF146E2E237}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageVeganFoodProductsShopNowHoll" Owner="{2A2DEF5A-D967-4A03-B5EA-4DD5B0780677}">
+				<Child Name="labelChocolate" Owner="{D3F1B49B-8756-4E2A-8A32-C582BE566FD5}" />
+				<Child Name="textnodeVeganFood" Owner="{169AC9BE-9281-4E7C-9E35-42C4EC99A22B}" />
+				<Child Name="panelClearFilters" Owner="{6CA2D277-39E4-42C7-93CC-52E37DB8167E}" />
+				<Child Name="linkVegoOrganicHazelnutChocolate" Owner="{D8EE810B-3954-4DF9-91A6-BB3FE624B47D}">
+					<Child Name="panelVegoOrganicHazelnutChocolat" Owner="{395A0E48-4989-463E-A9A1-108427354462}" />
+					<Child Name="buttonAddToBasket" Owner="{F7A01501-71A7-42D6-AB99-F4F48D34D9E6}" />
+				</Child>
+				<Child Name="link5" Owner="{11F21EC7-F3E5-43AA-8F33-E97E926C4A76}">
+					<Child Name="textnodeBasket" Owner="{A95470E2-9D9D-4EBB-ABCE-3C05E08EDA43}" />
+				</Child>
+			</Child>
+			<Child Name="pageBasketHollandBarrett" Owner="{B4DE6ED4-9698-476B-A0B3-35824012C91A}">
+				<Child Name="sectionVegoOrganicHazelnutChocol" Owner="{A2109E21-21CE-4BCA-8330-F9592C65AA18}" />
+				<Child Name="panelSubtotal" Owner="{1331A853-154D-4FEE-99EA-018170C97182}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

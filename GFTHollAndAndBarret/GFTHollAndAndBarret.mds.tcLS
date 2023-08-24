@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{4D279440-9EF4-473F-913A-BA8C79A51CBA}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="54006500730074002B0030003000350032003500400067006D00610069006C002E0063006F006D00"/>
+						</Node>
+						<Prp name="name" type="S" value="UserID"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="500061007300730077006F00720064004000310032003300"/>
+						</Node>
+						<Prp name="name" type="S" value="Password"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>
